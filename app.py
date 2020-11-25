@@ -146,6 +146,7 @@ def home():
 #     text = [int(x) for x in request.form.values()]
 #     tw = tweetss(text[0])
 #     return render_template("trending.html", prediction_text=tw)
+if __name__ == '__main__':
+   
 
-
-app.run(debug=True)
+    app.run(debug=True)
